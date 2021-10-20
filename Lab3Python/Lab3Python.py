@@ -6,6 +6,6 @@ n = 1.0
 s = 0.0
 while abs(term) >=e:
     s+= term
-    term = term * x * (m+1-n)
+    term = term * x * (m+1-n) / n
     n+= 1
-    print(n, "Проміжне значення функції:", term , "Сума:" ,s)
+print(n,term, "Сума:" ,s)   
